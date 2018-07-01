@@ -1,0 +1,11 @@
+name: Crumbly But Good
+url: https://crumblybutgood.com
+description: A blog about things
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+remote_theme: mattvh/solar-theme-jekyll
