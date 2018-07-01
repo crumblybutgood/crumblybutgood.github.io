@@ -5,7 +5,7 @@ description: A blog about things
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
-gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+plugins: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'CNAME']
 
-remote_theme: mattvh/solar-theme-jekyll
+theme: minima
